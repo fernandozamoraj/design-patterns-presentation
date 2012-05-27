@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{13A5F637-D704-427E-A259-CFC8EAE96EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{84730E70-C350-4B3E-A94F-B5BD1EB0110F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{0C719862-2727-4506-8E0F-399D841EBA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{7F545120-0FC8-4679-8CD8-817550370EFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13A5F637-D704-427E-A259-CFC8EAE96EE6}.Debug|x86.ActiveCfg = Debug|x86
+		{13A5F637-D704-427E-A259-CFC8EAE96EE6}.Debug|x86.Build.0 = Debug|x86
+		{13A5F637-D704-427E-A259-CFC8EAE96EE6}.Release|x86.ActiveCfg = Release|x86
+		{13A5F637-D704-427E-A259-CFC8EAE96EE6}.Release|x86.Build.0 = Release|x86
+		{84730E70-C350-4B3E-A94F-B5BD1EB0110F}.Debug|x86.ActiveCfg = Debug|x86
+		{84730E70-C350-4B3E-A94F-B5BD1EB0110F}.Debug|x86.Build.0 = Debug|x86
+		{84730E70-C350-4B3E-A94F-B5BD1EB0110F}.Release|x86.ActiveCfg = Release|x86
+		{84730E70-C350-4B3E-A94F-B5BD1EB0110F}.Release|x86.Build.0 = Release|x86
+		{0C719862-2727-4506-8E0F-399D841EBA7A}.Debug|x86.ActiveCfg = Debug|x86
+		{0C719862-2727-4506-8E0F-399D841EBA7A}.Debug|x86.Build.0 = Debug|x86
+		{0C719862-2727-4506-8E0F-399D841EBA7A}.Release|x86.ActiveCfg = Release|x86
+		{0C719862-2727-4506-8E0F-399D841EBA7A}.Release|x86.Build.0 = Release|x86
+		{7F545120-0FC8-4679-8CD8-817550370EFF}.Debug|x86.ActiveCfg = Debug|x86
+		{7F545120-0FC8-4679-8CD8-817550370EFF}.Debug|x86.Build.0 = Debug|x86
+		{7F545120-0FC8-4679-8CD8-817550370EFF}.Release|x86.ActiveCfg = Release|x86
+		{7F545120-0FC8-4679-8CD8-817550370EFF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
