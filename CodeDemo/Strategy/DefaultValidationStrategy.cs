@@ -17,7 +17,7 @@ namespace Strategy
 
         public string InvalidReason
         {
-            get { return "Unknow Record Type"; }
+            get { return "Unknown Record Type"; }
         }
 
     }

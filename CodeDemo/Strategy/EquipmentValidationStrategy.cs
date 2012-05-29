@@ -18,7 +18,7 @@ namespace Strategy
             foreach(var field in fields)
             {
                 if (_rawRecord.Contains(field) == false)
-                    _invalidReason += "\r\nMissing field:  " + field;
+                    _invalidReason += "\r\n!!Missing field:  " + field;
 
             }
 
