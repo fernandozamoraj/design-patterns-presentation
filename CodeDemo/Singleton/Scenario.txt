@@ -1,0 +1,4 @@
+﻿You have been tasked come up with a way to save application settings that are available to the entired  application.
+These settings can be used through any location of the application and do not change.
+The settings may be loaded at start up and no other loading is necessary after that.
+Loading is an expensive process and should only be done once through the entire application.
