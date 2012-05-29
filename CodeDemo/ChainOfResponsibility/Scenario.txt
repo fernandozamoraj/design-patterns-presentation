@@ -1,0 +1,4 @@
+﻿You have been tasked to write a validator class for validating serial numbers.
+Currently you based on all the validation rules, you know that they are context specific. 
+In other words not all the rules apply all of the time.
+Also there may be additional rules to come.

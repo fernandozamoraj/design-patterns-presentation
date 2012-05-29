@@ -1,0 +1,12 @@
+﻿You have been tasked to write a class that processes records from a flat file.  
+The file is a comma separated file that contains each field separated by a comma.  
+Each field contains the field's name along with it's value.
+The file contains multiple types of records. 
+The different types are personnel and equipment record.
+The format for each of those types of records has been given to you therefore it is easy to identify each record type.
+Before each field can be accepted into the database it must be rigrously validated.  
+The validation rules are different for each record type.
+In order to maintain cohesion in the responsiblities of classes the validation should be separated into different strategies even
+though the all records will be processed by the same record processor.
+Valid records will be pushed to the database.
+Invalid records will be written to a log file.

@@ -1,0 +1,8 @@
+﻿You have been tasked to write some payroll functionality.  
+You have different types of personnel.
+Currently you have hourly exempt, hourly non-exempt and salaried exempt personnel.
+Each of these different personnel have different set of rules in regards to how they get paid and how many
+hours they can work without approval.
+Currently those are the only known rules but there may be additional rules.
+To avoid switch statements and convoluted logic it is recommended that you create classes for each
+different type of employee.

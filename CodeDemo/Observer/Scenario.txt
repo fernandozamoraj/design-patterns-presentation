@@ -1,0 +1,3 @@
+﻿You have been tasked to create a class named datarow that will store a dynamic list of fields and values.
+You have been directed to notify clients of this class whenever a change occurss to any of the fields within the datarow.
+You don't know what clients will need to know about this change and you don't have a hard reference to them.

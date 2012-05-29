@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0C719862-2727-4506-8E0F-399D841EBA7A}</ProjectGuid>
+    <ProjectGuid>{29E7979D-248D-465C-896B-312B5D2F7F7D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ChainOfResponsibility</RootNamespace>
-    <AssemblyName>ChainOfResponsibility</AssemblyName>
+    <RootNamespace>Strategy</RootNamespace>
+    <AssemblyName>Strategy</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,14 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ISerialNumberRuleHandler.cs" />
+    <Compile Include="DefaultValidationStrategy.cs" />
+    <Compile Include="EquipmentValidationStrategy.cs" />
+    <Compile Include="IValidationStrategy.cs" />
+    <Compile Include="PersonnelValidationStrategy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SerialNumberCannotBeEmpty.cs" />
-    <Compile Include="SerialNumberCannotContainSpaces.cs" />
-    <Compile Include="SerialNumberRuleHandler.cs" />
-    <Compile Include="SerialNumberValidator.cs" />
-    <Compile Include="ValidationResult.cs" />
+    <Compile Include="RecordProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scenario.txt" />
