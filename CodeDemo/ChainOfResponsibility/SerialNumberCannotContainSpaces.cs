@@ -7,7 +7,7 @@
             if (serialNumber.Contains(" "))
             {
                 result.IsValid = false;
-                result.InvalidReason = "Serial Number Cannot Spaces";
+                result.InvalidReason = "Serial Number cannot contain any spaces";
                 return;
             }
 
