@@ -29,11 +29,14 @@ namespace Observer
         {
             DemoDataRow dataRow = new DemoDataRow();
             dataRow.AttachColumnChangedObserver(this);
+            dataRow.AttachColumnChangedObserver(this);
             dataRow.AttachColumnChangingObserver(this);
 
             dataRow["FirstName"] = "John";
             dataRow["LastName"] = "Doe";
             dataRow["FirstName"] = "*Jane%";
+            dataRow["Age"] = "39";
+            dataRow["Age"] = "40";
 
             dataRow.ToConsole();
 
@@ -74,7 +77,7 @@ namespace Observer
         {
             if(ContainsInvalidCharacters(columnChangedArgs.NewValue))
             {
-                Console.WriteLine("The newValue {0} has invalid characters changed rejecte", columnChangedArgs.NewValue);
+                Console.WriteLine("The newValue {0} has invalid characters changed rejected", columnChangedArgs.NewValue);
                 columnChangedArgs.CancelEvent = true;
             }
         }

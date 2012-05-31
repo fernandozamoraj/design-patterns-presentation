@@ -42,6 +42,11 @@ namespace Observer.example1
             _columnDeleteObservers.Add(handler);
         }
 
+        public void DetachColumnDeletedObserver(Action<DemoDataRow, ColumnChangedArgs> handler)
+        {
+            _columnDeleteObservers.Remove(handler);
+        }
+
         public void ToConsole()
         {
             Console.WriteLine();
@@ -77,8 +82,11 @@ namespace Observer.example1
 
                 if(!cancelled)
                 {
-                    if(!_values.ContainsKey(key))
+                    if (!_values.ContainsKey(key))
                         _values.Add(key, value);
+                    else
+                        _values[key] = value;
+                    
 
                     PublishChangedEvent(key, oldValue, value);
                 }

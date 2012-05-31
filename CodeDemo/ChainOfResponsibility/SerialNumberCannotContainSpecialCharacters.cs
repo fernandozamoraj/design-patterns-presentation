@@ -10,6 +10,7 @@ namespace ChainOfResponsibility
                 {
                     result.IsValid = false;
                     result.InvalidReason = string.Format("Serial number cannot contain the character \"{0}\"", invalidChar);
+                    break;
                 }
             }
 

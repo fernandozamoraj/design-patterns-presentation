@@ -15,8 +15,9 @@ namespace FactoryMethod
             Console.WriteLine("Wages for 50 hours for hourly salaried employee are {0}", salariedEmployee.ComputeWages(50));
 
             Console.ReadLine();
-
         }
+
+
 
         static Employee GetEmployee(EmployeeType employeeType)
         {

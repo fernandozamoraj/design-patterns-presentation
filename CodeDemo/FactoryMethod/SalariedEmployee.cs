@@ -8,7 +8,7 @@
 
         public override decimal ComputeWages(int hours)
         {
-            return _unitSalary / 52;
+            return _unitSalary / 52m;
         }
     }
 }
